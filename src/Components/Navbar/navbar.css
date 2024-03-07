@@ -1,0 +1,44 @@
+.btnDaftar {
+  width: 85px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--SecondaryColor);
+  border: none;
+  font-weight: 500;
+  color: white;
+}
+
+.btnLogin {
+  width: 85px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--PrimaryColor);
+  border: none;
+  font-weight: 500;
+  color: white;
+}
+
+.btn:hover {
+  background: hsl(199, 100%, 33%);
+}
+
+.navItem {
+  font-weight: 500;
+}
+
+.navLink a {
+  text-decoration: none;
+  color: #000;
+  line-height: 40px;
+  font-size: 14px;
+}
+
+.navLink a:hover {
+  text-decoration: underline;
+  color: var(--PrimaryColor);
+}
+
+.logo {
+  text-decoration: none;
+  color: #964b00;
+}

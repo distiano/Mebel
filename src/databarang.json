@@ -1,0 +1,50 @@
+[
+  {
+    "image": "images/kursi-a.png",
+    "namabarang": "Kursi A",
+    "harga": "750.000",
+    "toko": "Furniture"
+  },
+  {
+    "image": "images/meja-a.png",
+    "namabarang": "Meja A",
+    "harga": "550.000",
+    "toko": "Furniture"
+  },
+  {
+    "image": "images/kursi-b.png",
+    "namabarang": "Kursi B",
+    "harga": "600.000",
+    "toko": "Furniture"
+  },
+  {
+    "image": "images/meja-b.png",
+    "namabarang": "Meja B",
+    "harga": "1.500.000",
+    "toko": "Furniture"
+  },
+  {
+    "image": "images/kursi-c.png",
+    "namabarang": "Kursi C",
+    "harga": "800.000",
+    "toko": "Furniture"
+  },
+  {
+    "image": "images/meja-c.png",
+    "namabarang": "Meja C",
+    "harga": "1.050.000",
+    "toko": "Furniture"
+  },
+  {
+    "image": "images/meja-b.png",
+    "namabarang": "Meja B",
+    "harga": "1.500.000",
+    "toko": "Furniture"
+  },
+  {
+    "image": "images/kursi-a.png",
+    "namabarang": "Kursi A",
+    "harga": "750.000",
+    "toko": "Furniture"
+  }
+]

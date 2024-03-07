@@ -1,10 +1,6 @@
 import './search.css';
-import { Col, Container, Form, Row, Card, ListGroup } from 'react-bootstrap';
+import { Col, Container, Form, Row, Card } from 'react-bootstrap';
 import dataBarang from '../../databarang.json';
-import kursiKategori from '../../assets/images/kursiKategori.png';
-import mejaKategori from '../../assets/images/mejaKategori.png';
-import lemariKategori from '../../assets/images/lemariKategori.png';
-import kursiC from '../../assets/images/kursi C 1.png';
 
 const Search = () => {
   return (
@@ -16,7 +12,7 @@ const Search = () => {
         <div className="d-flex justify-content-between mt-3">
           <h6>Filters</h6>
           <div className="d-flex align-items-center ">
-            <label for="lang" style={{ fontSize: '14px' }}>
+            <label htmlFor="urutkan" style={{ fontSize: '14px' }}>
               Urutkan:
             </label>
             <Form.Select size="sm" className="formSelect ms-3">
@@ -33,17 +29,17 @@ const Search = () => {
               <div className="filters ">
                 <div>
                   <h6>Kategori</h6>
-                  <div class="list-group mb-3">
-                    <a href="#" class="list-group-item ">
+                  <div className="list-group mb-3">
+                    <a href="#" className="list-group-item ">
                       Kursi
                     </a>
-                    <a href="#" class="list-group-item">
+                    <a href="#" className="list-group-item">
                       Meja
                     </a>
-                    <a href="#" class="list-group-item">
+                    <a href="#" className="list-group-item">
                       Lemari
                     </a>
-                    <a href="#" class="list-group-item">
+                    <a href="#" className="list-group-item">
                       Kasur
                     </a>
                   </div>
@@ -53,7 +49,7 @@ const Search = () => {
             </Col>
             <Col md={9} className="searchItem mt-3">
               <Row>
-                {dataBarang.map((dataBarang, i) => (
+                {dataBarang.map((dataBarang) => (
                   <Col xs={6} md={3} className="mb-4">
                     <a href="">
                       <Card className="">

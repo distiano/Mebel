@@ -2,11 +2,9 @@ import React from 'react';
 import { Container, Card, Row, Col } from 'react-bootstrap';
 import './banner.css';
 import bannerImage from '../../assets/images/Banner.png';
-import { IoSearch } from 'react-icons/io5';
 import kursiKategori from '../../assets/images/kursiKategori.png';
 import mejaKategori from '../../assets/images/mejaKategori.png';
 import lemariKategori from '../../assets/images/lemariKategori.png';
-import kursiC from '../../assets/images/kursi C 1.png';
 import { FaCircleArrowRight } from 'react-icons/fa6';
 import dataBarang from '../../databarang.json';
 
@@ -48,7 +46,7 @@ const Banner = () => {
         <div className="kategori mt-5">
           <h5>Untuk Anda</h5>
           <Row className="mt-4">
-            {dataBarang.map((dataBarang, i) => (
+            {dataBarang.map((dataBarang) => (
               <Col xs={6} md={3} className="mb-5">
                 <a href="">
                   <Card className="shadow">

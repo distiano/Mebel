@@ -1,0 +1,91 @@
+:root {
+  --PrimaryColor: #964b00;
+  --SecondaryColor: #b69574;
+  --gradientColor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+}
+
+.productImage {
+  border: 1px #818181 solid;
+  border-radius: 5px;
+}
+
+.produkSerupa a {
+  text-decoration: none;
+}
+
+.productTitle h2 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.productTitle button {
+  width: 175px;
+  height: 50px;
+  padding: 20px, 40px, 20px, 40px;
+  border-radius: 5px;
+  border: 1px #000 solid;
+  background-color: #fbfbfb;
+}
+.productPrice h3 {
+  font-size: 24px;
+}
+
+.productPrice button {
+  width: 160px;
+  height: 45px;
+  padding: 12px, 24px, 12px, 24px;
+  border-radius: 10px;
+  background: var(--PrimaryColor);
+  color: white;
+  font-weight: 600;
+  border: none;
+}
+
+.productPrice .icon {
+  width: 25px;
+  height: 25px;
+  opacity: 100%;
+}
+
+.description p {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 780px) {
+  .productTitle h2 {
+    font-size: 20px;
+  }
+
+  .productTitle button {
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+  }
+
+  .productPrice h3 {
+    font-size: 18px;
+  }
+
+  .productPrice button {
+    width: 115px;
+    height: 35px;
+    padding: 12px, 24px, 12px, 24px;
+    border-radius: 10px;
+    background: var(--PrimaryColor);
+    color: white;
+    border: none;
+  }
+
+  .productPrice .icon {
+    width: 22px;
+    height: 22px;
+    opacity: 100%;
+  }
+
+  .description p {
+    font-size: 12px;
+  }
+}

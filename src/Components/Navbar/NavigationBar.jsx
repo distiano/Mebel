@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { useNavigate } from 'react-router-dom';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { Link } from 'react-router-dom';
 
 const NavigationBar = () => {
   const navigate = useNavigate();
@@ -18,9 +19,9 @@ const NavigationBar = () => {
       <Container>
         <Navbar.Brand href="#home">
           <div className="logoDiv">
-            <a href="" className="logo d-flex align-items-center">
+            <Link to="/" className="logo d-flex align-items-center">
               <h3 className="fw-bold">Meubel</h3>
-            </a>
+            </Link>
           </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleShow} className="order-2" />
@@ -30,20 +31,17 @@ const NavigationBar = () => {
           <Offcanvas.Body>
             <Nav className="mx-auto navItem">
               <Nav.Link className="navLink border-bottom">
-                <a href="/home" onClick={() => navigate('/home')}>
+                <Link to="/home" onClick={() => navigate('/home')}>
                   Home
-                </a>
+                </Link>
               </Nav.Link>
               <Nav.Link className="navLink border-bottom">
-                <a href="/search" onClick={() => navigate('/search')}>
+                <Link to="/search" onClick={() => navigate('/search')}>
                   Kategori
-                </a>
+                </Link>
               </Nav.Link>
               <Nav.Link className="navLink border-bottom">
-                <a href="/about">Pekerjaan</a>
-              </Nav.Link>
-              <Nav.Link className="navLink border-bottom">
-                <a href="#link">Contact</a>
+                <Link to="/home">Pekerjaan</Link>
               </Nav.Link>
             </Nav>
             <div className="text-center mt-3 d-flex justify-content-evenly">
@@ -55,17 +53,17 @@ const NavigationBar = () => {
 
         <Nav className="mx-auto text-center navItem d-none d-lg-flex ">
           <Nav.Link className="navLink">
-            <a href="/home" onClick={() => navigate('/home')}>
+            <Link to="/home" onClick={() => navigate('/home')}>
               Home
-            </a>
+            </Link>
           </Nav.Link>
           <Nav.Link className="navLink">
-            <a href="/search" onClick={() => navigate('/search')}>
+            <Link to="/search" onClick={() => navigate('/search')}>
               Kategori
-            </a>
+            </Link>
           </Nav.Link>
           <Nav.Link className="navLink">
-            <a href="/about">Pekerjaan</a>
+            <Link to="/about">Pekerjaan</Link>
           </Nav.Link>
         </Nav>
         <div className="text-center d-none d-md-flex order-1">

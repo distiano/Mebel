@@ -1,50 +1,60 @@
 [
   {
+    "id": 1,
     "image": "images/kursi-a.png",
     "namabarang": "Kursi A",
     "harga": "750.000",
-    "toko": "Furniture"
+    "toko": "Furniture QWE"
   },
   {
+    "id": 2,
     "image": "images/meja-a.png",
     "namabarang": "Meja A",
     "harga": "550.000",
-    "toko": "Furniture"
+    "toko": "Furniture RTY"
   },
   {
+    "id": 3,
     "image": "images/kursi-b.png",
     "namabarang": "Kursi B",
     "harga": "600.000",
-    "toko": "Furniture"
+    "toko": "Furniture ASD"
   },
   {
+    "id": 4,
     "image": "images/meja-b.png",
     "namabarang": "Meja B",
     "harga": "1.500.000",
-    "toko": "Furniture"
+    "toko": "Furniture FGH"
   },
   {
+    "id": 5,
     "image": "images/kursi-c.png",
     "namabarang": "Kursi C",
     "harga": "800.000",
-    "toko": "Furniture"
+    "toko": "Furniture JKL"
   },
   {
+    "id": 6,
     "image": "images/meja-c.png",
     "namabarang": "Meja C",
     "harga": "1.050.000",
-    "toko": "Furniture"
+    "toko": "Furniture ZXC"
   },
   {
+    "id": 7,
+
     "image": "images/meja-b.png",
     "namabarang": "Meja B",
     "harga": "1.500.000",
-    "toko": "Furniture"
+    "toko": "Furniture VBN"
   },
   {
+    "id": 8,
+
     "image": "images/kursi-a.png",
     "namabarang": "Kursi A",
     "harga": "750.000",
-    "toko": "Furniture"
+    "toko": "Furniture TGB"
   }
 ]

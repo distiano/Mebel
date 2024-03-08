@@ -19,3 +19,9 @@
     padding-right: 30px;
   }
 }
+
+@media screen and (max-width: 780px) {
+  * {
+    font-size: 12px;
+  }
+}

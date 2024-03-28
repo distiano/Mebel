@@ -1,0 +1,67 @@
+.pekerjaan {
+  font-size: 14px;
+}
+
+.lowonganPekerjaan {
+  height: 458px;
+}
+
+.deskripsiPekerjaan {
+  height: 458px;
+  border-radius: 10px;
+  border: 1px solid #00000080;
+  background-color: #fbfbfb;
+}
+
+.deskripsiPekerjaan p {
+  font-size: 12px;
+}
+
+.listPekerjaan {
+  height: 150px;
+  border-radius: 10px;
+  background-color: #fbfbfb;
+  padding: 15px;
+  border: 1px solid #0000001a;
+  color: black;
+}
+
+.listPekerjaan h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.listPekerjaan h6 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.listPekerjaan:hover {
+  text-decoration: underline;
+}
+
+.pekerjaan a {
+  text-decoration: none;
+}
+
+.btnSimpan {
+  width: 85px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--SecondaryColor);
+  border: none;
+  font-weight: 500;
+  color: white;
+  font-size: 12px;
+}
+
+.btnHubungi {
+  width: 85px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--PrimaryColor);
+  border: none;
+  font-weight: 500;
+  color: white;
+  font-size: 12px;
+}

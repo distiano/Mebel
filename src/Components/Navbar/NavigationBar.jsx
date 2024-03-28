@@ -41,7 +41,7 @@ const NavigationBar = () => {
                 </Link>
               </Nav.Link>
               <Nav.Link className="navLink border-bottom">
-                <Link to="/home">Pekerjaan</Link>
+                <Link to="/pekerjaan">Pekerjaan</Link>
               </Nav.Link>
             </Nav>
             <div className="text-center mt-3 d-flex justify-content-evenly">
@@ -63,7 +63,7 @@ const NavigationBar = () => {
             </Link>
           </Nav.Link>
           <Nav.Link className="navLink">
-            <Link to="/about">Pekerjaan</Link>
+            <Link to="/pekerjaan">Pekerjaan</Link>
           </Nav.Link>
         </Nav>
         <div className="text-center d-none d-md-flex order-1">
